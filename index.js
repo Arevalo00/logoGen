@@ -5,7 +5,8 @@ const fs = require('fs');
 
 // my questions arry with inquirer
 
-inquirer.prompt ([
+const logoQuestions = () => {
+    return inquirer.prompt ([
 
     {
         name:'letters',
@@ -34,4 +35,6 @@ inquirer.prompt ([
 
 
 
-]);
+])};
+
+logoQuestions();
