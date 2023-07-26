@@ -1,7 +1,6 @@
 ### ReadMe - LogoGen 
 
-In this project we are creating a logo genorator, 
-
+In this project we are creating a logo genorator, when starting this project I frist started by installing the node packages I would need to start the project. Which was Jest as a dev dep and Inquier, these were important to have installed so as I created my logo gen I could run it. after that I stared putting in all the different functions I would need for the project. After that was done I started making Tests for my app, that way I could test my app to make sure it was working properly. Next it was time to start writing out my app, with the prompt qestions and svg items working. Once it was all lined up I could run the test I set up before after that I was all set up to go. 
 
 
 
@@ -28,3 +27,5 @@ THEN an SVG file is created named `logo.svg`
 AND the output text "Generated logo.svg" is printed in the command line
 WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
+
+## Links/video  
