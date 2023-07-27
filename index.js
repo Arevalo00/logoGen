@@ -37,4 +37,5 @@ const logoQuestions = () => {
 
 ])};
 
-logoQuestions();
+
+console.log(logoQuestions, 'yay it worked');

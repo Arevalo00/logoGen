@@ -28,3 +28,15 @@ describe('logoQuestions', ()=> {
         });
 });
 
+describe('logoQuestions', ()=> {
+    
+    describe('shape', () => {
+        it('should only allow you to chooes one shape', ()=> {
+            const total = 1;
+            const logoQuestions = new logoQuestions();
+            expect(logoQuestions.shape(1)).toEqual(total);  
+        });
+
+    });
+});
+
