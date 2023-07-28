@@ -38,4 +38,6 @@ const logoQuestions = () => {
 ])};
 
 
-console.log(logoQuestions, 'yay it worked');
+logoQuestions()
+
+// write file 
